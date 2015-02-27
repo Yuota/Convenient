@@ -1,0 +1,49 @@
+<!-- Footer -->
+    <footer id="footer">
+        <ul class="icons">
+            <li><a href="#" class="icon fa-qq"><span class="label">QQ</span></a>
+            </li>
+            <li><a href="#" class="icon fa-weixin"><span class="label">微信</span></a>
+            </li>
+            <li><a href="#" class="icon fa-weibo"><span class="label">微博</span></a>
+            </li>
+            <li><a href="#" class="icon fa-renren"><span class="label">人人</span></a>
+            </li>
+            <li><a href="#" class="icon fa-github"><span class="label">GitHub</span></a>
+            </li>
+        </ul>
+        <ul class="copyright">
+            <li>&copy; 创易工厂. All rights reserved.</li>
+            <li>Design: <a href="http://html5up.net" target="_">HTML5 UP</a>
+            </li>
+        </ul>
+    </footer>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.dropotron.min.js"></script>
+    <script src="js/jquery.scrollgress.min.js"></script>
+    <script src="js/skel.min.js"></script>
+    <script src="js/skel-layers.min.js"></script>
+    <script src="js/init.js"></script>
+    <script src="js/dialog-min.js"></script>
+    <noscript>
+        <link rel="stylesheet" href="css/skel.css" />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/style-wide.css" />
+    </noscript>
+
+    <!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+    <script type="text/javascript">
+    $('.login').on('click', function () {
+        var d = dialog({
+            fixed: true,
+            title: '提示',
+            content: '<div class="tuna-login"><span class="invite">邀请码</span><div class="fl 6u 12u(mobilep)"><input type="text" id="invite"/></div><button type="button" class="invite-btn">确定</button></div>',
+             okValue: '确定'
+        });
+        d.showModal();
+    });
+
+</script>
+</body>
+
+</html>
